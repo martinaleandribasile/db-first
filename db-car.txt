@@ -2,7 +2,7 @@ ID -> INT, NOT_NULL,AUTO_INCREMENT,UNIQUE - PRIMARY KEY
 -Auto Nuova : BOOL
 -Auto Usata : BOOL
 -Prezzo : FLOAT(8,2) => MEDIUMINT , NOT_NULL
--Marca : STRING=> VARCHAR(20), NOT_NULL
+-Marca : STRING=> VARCHAR(30), NOT_NULL
 -Modello : STRING=> VARCHAR(30), NOT_NULL
 -Anno Immatricolazione : DATA=> YEAR, NOT_NULL
 -Paese Immatricolazione : STRING => VARCHAR(4)
