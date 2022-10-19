@@ -1,6 +1,6 @@
 ID -> INT, NOT_NULL,AUTO_INCREMENT,UNIQUE - PRIMARY KEY
--Auto Nuova : BOOL
--Auto Usata : BOOL
+-Auto Nuova :  BOOL => TINYINT(2)
+-Auto Usata :  BOOL => TINYINT(2)
 -Prezzo : FLOAT(8,2) => MEDIUMINT , NOT_NULL
 -Marca : STRING=> VARCHAR(30), NOT_NULL
 -Modello : STRING=> VARCHAR(50), NOT_NULL
@@ -13,11 +13,11 @@ ID -> INT, NOT_NULL,AUTO_INCREMENT,UNIQUE - PRIMARY KEY
 -Alimentazioni : STRING => VARCHAR(15), NOT_NULL
 -Velocita' Massima : STRING => VARCHAR(10)
 -Classe Emissione : STRING => VARCHAR(15)
--Garanzia : BOOL
--Airbag Guidatore : BOOL
--Airbag Passeggiero : BOOL
--ABS + EBD : BOOL
--Cambio Manuale : BOOL
--Cambio Automatico : BOOL
+-Garanzia :  BOOL => TINYINT(2)
+-Airbag Guidatore :  BOOL => TINYINT(2)
+-Airbag Passeggiero :  BOOL => TINYINT(2)
+-ABS + EBD :  BOOL => TINYINT(2)
+-Cambio Manuale :  BOOL => TINYINT(2)
+-Cambio Automatico :  BOOL => TINYINT(2)
 -Colore: STRING => VARCHAR(50)
 -Descrizione: STRING => TEXT
